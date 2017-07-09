@@ -4,7 +4,12 @@
          xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
             http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 
-    <display-name>Spring4MVCHelloWorldDemo Web Application</display-name>
+    <display-name>WebCustomTracker Web Application</display-name>
+
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
 
     <servlet>
         <servlet-name>dispatcher</servlet-name>
